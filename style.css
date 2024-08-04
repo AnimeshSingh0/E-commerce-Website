@@ -1,0 +1,360 @@
+/* Navbar */
+
+.navbar-collapse{
+    flex-grow: 0; 
+}
+nav{
+    padding: 0px 2%;
+    background: linear-gradient(90deg, #cc2b5e,#753a88);
+    /* border-bottom: 3px solid black; */
+}
+.navbar-nav li a{
+    color: #000428 !important; 
+    font-size: medium;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-nav li a:hover{
+    color: #43cea2 !important;
+    text-decoration: underline;
+}
+.navbar-nav li a.active{ 
+    color:  #43cea2 !important;
+}
+
+/* Bg-pic */
+.bg-pic{
+    margin-top: 6%;
+    background-image: url('images/bg-pic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+}
+.bg-pic .opacity{
+    background: rgba(0, 0, 0, 0.5);
+    height: 80vh;
+}
+.bg-content{
+    text-align: center;
+    padding: 12%;
+}
+.bg-head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #43cea2;
+}
+.bg-p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: #43cea2;
+}
+
+
+
+.head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: -webkit-linear-gradient(0deg, #cc2b5e,#753a88);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* prod css */
+
+.prod-section{
+    padding: 3%;
+    background-image: linear-gradient(90deg,#cc2b5e,#753a88);
+    /* background-color: #ddd6f3; */
+}
+.prod-section .head2{
+    margin-bottom: 1%;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    background: -webkit-linear-gradient(0deg, #141e30 , #243b55);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: white; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.prod-section .card{
+    margin: 4% 3%;
+    background-color: transparent;
+    /* background-color: #ddd6f3; */
+    /* background-color: #43cea2; */
+    border-radius: 10%;
+    border: 3px solid white;
+    transition: 0.5s;
+}
+.prod-section .card:hover{
+    transform: translate(3%,-3%);
+    transition: 0.5s;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.4);
+}
+.prod-section .card img{
+    overflow: hidden;
+    height: 50vh;
+    padding: 3%;
+    border-radius: 40px;
+}
+.prod-section .card .prod-content{
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 6%;
+    color: white;
+}
+.prod-section .card .prod-content h4, .prod-section .card .prod-content h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 600;
+    /* color: #43cea2; */
+}
+.prod-section .prod-content .buy{
+    margin-top:4%;
+}
+.btn-style{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(90deg, #141e30 , #243b55);
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px 0px grey;
+    font-weight: 600;
+    /* border-bottom-left-radius: 40px; */
+    border-top-right-radius: 40px;
+    border-left: 3px white solid;
+    border-bottom: 3px white solid;
+}
+.btn-style:hover{
+    color: #43cea2;
+    text-decoration: underline #43cea2;
+}
+.buy{
+    transition: 0.5s;
+}
+.buy:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.owl-carousel .owl-nav{
+    text-align: center;
+}
+.owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev{
+    font-size: 60px !important;
+    color: #141e30 !important;
+}
+/* site highlight CSS */
+
+.shl-container{
+    display: flex;
+    margin: 2%;
+}
+.shl-img{
+    width:50%;
+}
+.shl-img img{
+    width: 100%;
+}
+.shl-content h1{
+    margin: 1%;
+    margin-bottom: 4%;
+}
+.shl-content{
+    width: 50%;
+    padding-top:1% ;
+}
+.shl-content li{
+    margin: 1%;
+    padding: 1%;
+    padding-left: 4%;
+    border-right: 2px solid #43cea2;
+    color: #43cea2;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    font-size: large;
+}
+.shl-content li:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.2);
+    border: 2px solid #43cea2;
+}
+
+/* testimonial */
+.testimonial .carousel-item{
+    text-align: center;
+    padding: 3%;
+}
+.testimonial .carousel-item p{
+    padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    box-shadow:0px 3px 65px 0px rgba(0, 0, 0, 0.1); 
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: #bdc3c7;
+    border: 2px solid #43cea2;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.testimonial .carousel-item img{
+    height: 35vh;
+    margin-bottom: 3%;
+}
+.testimonial {
+    background-image: linear-gradient(90deg,#000428 , #004e92);
+    padding-top: 3%;
+}
+
+/* Review CSS */
+.feedback{
+    background-image: url('images/review-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.feedback h2{
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.feedback .feed-opacity{
+    background:rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 2%;
+}
+.feedback .feedback-form{
+    text-align: center;
+}
+.feedback .feedback-form form{
+    padding: 1%;
+}
+.feedback .feedback-form form input, .feedback .feedback-form form textarea, .feedback .feedback-form form button{
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+    outline: none;
+}
+.feedback .feedback-form form button{
+    color: white;
+    transition: 0.5s;
+    background: linear-gradient(90deg, #cc2b5e,#753a88);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+    
+}
+.feedback .feedback-form form button:hover{
+    color: #43cea2;
+    transition: 0.5s;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer{
+    padding : 2%;
+    background: linear-gradient(90deg, #141e30, #243b55);
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    text-align: center;
+    padding-top: 2%;
+}
+footer h3{
+    font-size: x-large !important;
+    padding: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #bdc3c7 !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+footer a:hover{
+    color: #43cea2 !important;
+}
+footer .social a, footer .contact a{
+    font-size: medium;
+}
+footer .lastline{
+    font-size: small;
+    padding: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+.pages, .doc, .social, .contact{
+    width: 25%;
+}
+
+
+@media screen and (max-width: 540px) {
+    .footer-container{
+        display: grid;
+    }
+    .pages, .doc, .social, .contact{
+        width: 100%;
+        padding: 2%;
+    }
+    .feedback .feedback-form form input, .feedback .feedback-form form textarea, .feedback .feedback-form form button{
+        width: 60%;
+        margin: 1%;
+        padding: 2%;
+        outline: none;
+    }
+    .bg-content{
+        padding-top: 45%;
+    }
+    .prod-section .head2{
+        padding: 3%;
+    }
+    .shl-container{
+        display: grid;
+    }
+    .shl-img{
+        width: 100%;
+    }
+    .shl-content{
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .shl-content li{
+        margin: 2%;
+        padding: 3%;
+    }
+    .testimonial .carousel-item p{
+        width: 90%;
+        font-size: small;
+        padding: 2.5%;
+        border-top-right-radius:30px;
+        border-bottom-left-radius: 30px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 850px){
+    .bg-content{
+        padding-top: 45%;
+    }
+    .shl-img{
+        margin-top: 9%;
+    }
+}
+
+
+
+

@@ -1,0 +1,190 @@
+/* Navbar */
+
+.navbar-collapse{
+    flex-grow: 0; 
+}
+nav{
+    padding: 0px 2%;
+    /* background: linear-gradient(90deg, #cc2b5e,#753a88); */
+    background-image: linear-gradient(90deg, #141e30 , #243b55);
+    /* border-bottom: 3px solid black; */
+}
+.navbar-nav li a{
+    color: white!important; 
+    font-size: medium;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-nav li a:hover{
+    color: #43cea2 !important;
+    text-decoration: underline;
+}
+.navbar-nav li a.active{ 
+    color:  #43cea2 !important;
+}
+
+/* Product Section */
+.prod-imgg{
+    height: 70vh;
+    background-image: linear-gradient(90deg,#cc2b5e,#753a88);
+}
+
+.prod-section{
+    padding: 3%;
+    /* background-image: linear-gradient(90deg, #141e30 , #243b55); */
+    background-image: linear-gradient(90deg,#cc2b5e,#753a88);
+    /* background-image: linear-gradient(90deg,#000428 , #004e92); */
+    /* background-color: #ddd6f3; */
+}
+.prod-head{
+    margin-bottom: 1%;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    padding: 1%;
+    /* background-image: linear-gradient(90deg,#cc2b5e,#753a88); */
+    /* background-image: linear-gradient(90deg,#000428 , #004e92); */
+}
+.prod-section .card{
+    margin: 4% 3%;
+    /* background-image: linear-gradient(90deg,#cc2b5e,#753a88); */
+    /* background-image: linear-gradient(90deg, #141e30 , #243b55); */
+    /* background-image: linear-gradient(90deg,#000428 , #004e92); */
+    background-color: transparent;
+    /* background-color: #ddd6f3; */
+    border-radius: 10%;
+    border: 3px solid white;
+    transition: 0.5s;
+}
+.prod-section .card:hover{
+    transform: translate(3%,-3%);
+    transition: 0.5s;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.4);
+}
+.prod-section .card img{
+    overflow: hidden;
+    height: 50vh;
+    padding: 3%;
+    border-radius: 40px;
+}
+.prod-section .card .prod-content{
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 6%;
+    color: white;
+}
+.prod-section .card .prod-content h4, .prod-section .card .prod-content h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 600;
+    /* color: #43cea2; */
+}
+.prod-section .prod-content .buy{
+    margin-top:4%;
+}
+.btn-style{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(90deg, #141e30 , #243b55);
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px 0px grey;
+    font-weight: 600;
+    /* border-bottom-left-radius: 40px; */
+    border-top-right-radius: 40px;
+    border-left: 3px white solid;
+    border-bottom: 3px white solid;
+}
+.btn-style:hover{
+    color: #43cea2;
+    text-decoration: underline #43cea2;
+}
+.buy{
+    transition: 0.5s;
+}
+.buy:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: -webkit-linear-gradient(0deg, #cc2b5e,#753a88);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+/* Footer */
+
+footer{
+    padding : 2%;
+    background: linear-gradient(90deg, #141e30, #243b55);
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    text-align: center;
+    padding-top: 2%;
+}
+footer h3{
+    font-size: x-large !important;
+    padding: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #bdc3c7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+footer a:hover{
+    color:  #43cea2;
+}
+footer .social a, footer .contact a{
+    font-size: medium;
+}
+footer .lastline{
+    font-size: small;
+    padding: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+.pages, .doc, .social, .contact{
+    width: 25%;
+}
+
+@media screen and (max-width: 540px) {
+    .footer-container{
+        display: grid;
+    }
+    .pages, .doc, .social, .contact{
+        width: 100%;
+        padding: 2%;
+    }
+    .prod-imgg{
+        height: 30vh;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 850px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .prod-imgg{
+        height: 35vh;
+    }
+}

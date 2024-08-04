@@ -1,0 +1,279 @@
+/* Navbar */
+
+.navbar-collapse{
+    flex-grow: 0; 
+}
+nav{
+    padding: 0px 2%;
+    background: linear-gradient(90deg, #cc2b5e,#753a88);
+    /* border-bottom: 3px solid black; */
+}
+.navbar-nav li a{
+    color: #000428 !important; 
+    font-size: medium;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-nav li a:hover{
+    color: #43cea2 !important;
+    text-decoration: underline;
+}
+.navbar-nav li a.active{ 
+    color:  #43cea2 !important;
+}
+
+.head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: -webkit-linear-gradient(0deg, #cc2b5e,#753a88);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+.buy{
+    margin-top: 3%;
+    text-align: center;
+    transition: 0.5s;
+}
+.buy:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.btn-style{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(90deg, #cc2b5e,#753a88);
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px 0px grey;
+    font-weight: 600;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border-bottom-left-radius: 40px; */
+    border-radius: 40px;
+    border-left: 3px white solid;
+    border-bottom: 3px white solid;
+}
+.btn-style:hover{
+    color: #43cea2;
+    text-decoration: underline;
+}
+
+
+.product{
+    padding: 2%;
+    /* background-color: #000428; */
+}
+.images img{
+    /* border: 3px solid white; */
+    /* border: 3px solid #000428; */
+    border-radius: 50px;
+}
+.key-points{
+    padding: 1%;
+    /* width: 60%; */
+}
+.key-points li{
+    margin: 1%;
+    padding: 1%;
+    border-right: 2px solid #5b86e5;
+    color: #5b86e5;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    font-size: large;
+}
+
+.detail h3{
+    color: #5b86e5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.detail h4{
+    color: #5b86e5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 2%;
+}
+.detail p{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+td{
+    padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.t-heading{
+    width: 20%;
+}
+.t-content{
+    width: 30%;
+}
+
+
+/* Register */
+
+.reg-head{
+    padding: 2%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: white;
+}
+.reg-head h1{
+    font-weight: bold;
+}
+.reg{
+    /* background-image: linear-gradient(90deg,#43cea2 , #185a9d); */
+    background-image: linear-gradient(90deg, #36d1dc , #5b86e5);
+}
+.reg-container .reg-img{
+    padding: 2%;
+}
+.reg-container .reg-content{
+    padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+/* Contact */
+.about-us p,.contact-content p, .team-content ul{
+    padding: 3%;
+    margin: 1%;
+    border: 2px solid #5b86e5;
+    color: #43cea2;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.1);
+    line-height: x-large;
+    font-size: medium;
+    list-style: none;
+}
+.team-content li{
+    padding-left: 2%;
+}
+.contact-container, .about-us{
+    padding: 3%;
+}
+.gmap{
+    text-align: center;
+    border: 10px solid #43cea2;
+    width: 100%;
+}
+.contact-content p{
+    color: #c33764;
+}
+
+/* Review CSS */
+.feedback{
+    background-image: url('images/review-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.feedback h2{
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.feedback .feed-opacity{
+    background:rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 2%;
+}
+.feedback .feedback-form{
+    text-align: center;
+}
+.feedback .feedback-form form{
+    padding: 1%;
+}
+.feedback .feedback-form form input, .feedback .feedback-form form textarea, .feedback .feedback-form form button{
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+    outline: none;
+}
+.feedback .feedback-form form button{
+    color: white;
+    transition: 0.5s;
+    background: linear-gradient(90deg, #cc2b5e,#753a88);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+    
+}
+.feedback .feedback-form form button:hover{
+    color: #43cea2;
+    transition: 0.5s;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer{
+    padding : 2%;
+    background: linear-gradient(90deg, #141e30, #243b55);
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    text-align: center;
+    padding-top: 2%;
+}
+footer h3{
+    font-size: x-large !important;
+    padding: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #bdc3c7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+footer a:hover{
+    color:  #43cea2;
+}
+footer .social a, footer .contact a{
+    font-size: medium;
+}
+footer .lastline{
+    font-size: small;
+    padding: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+.pages, .doc, .social, .contact{
+    width: 25%;
+}
+
+@media screen and (max-width: 540px) {
+    .footer-container{
+        display: grid;
+    }
+    .pages, .doc, .social, .contact{
+        width: 100%;
+        padding: 2%;
+    }
+    .feedback .feedback-form form input, .feedback .feedback-form form textarea, .feedback .feedback-form form button{
+        width: 60%;
+        margin: 1%;
+        padding: 2%;
+        outline: none;
+    }
+    .gmap iframe{
+        width: 100%;
+    }
+    .buy{
+        margin-bottom: 4%;
+    }
+    .col-md-6{
+        margin-bottom: 3%;
+    }
+}
